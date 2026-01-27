@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Glance and Focus Reinforcement for Pan-cancer Screening</h1>
+<h1>[ICLR 2026] Glance and Focus Reinforcement for Pan-cancer Screening</h1>
 
 <a href="https://github.com/Luffy03/GF-Screen"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/datasets/linshangmail/Pancancer'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green' alt='Dataset'></a>

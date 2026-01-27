@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Glance and Focus Reinforcement for Pan-cancer Screening</h1>
 
-<a href="https://arxiv.org/abs/2504.21336"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
+<a href="https://github.com/Luffy03/GF-Screen"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/datasets/linshangmail/Pancancer'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green' alt='Dataset'></a>
 </div>
 
@@ -56,7 +56,7 @@ You can also check our previous work [FreeTumor](https://github.com/Luffy03/Free
 
 ### Acknowledgement <a name="Acknowledgment"></a>
 
-We thank Prof. [Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and Dr. [Song Gu](https://scholar.google.com/citations?user=n2ddmEMAAAAJ&hl=zh-CN) for their support. We also learn a lot from Dr. [Ziyan Huang's](https://scholar.google.com/citations?user=BshL3fUAAAAJ&hl=en) champion solution of [FLARE 22&24](https://github.com/Ziyan-Huang). We sincerely appreciate the valuable comments provided by the [ICLR 2026 reviewers](https://openreview.net/forum?id=qsSIBK6nJX&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)), where we benefit a lot from them.
+We thank Prof. [Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and Dr. [Song Gu](https://scholar.google.com/citations?user=n2ddmEMAAAAJ&hl=zh-CN) for their support. We also learn a lot from Dr. [Ziyan Huang's](https://scholar.google.com/citations?user=BshL3fUAAAAJ&hl=en) champion solution of [FLARE 22&24](https://github.com/Ziyan-Huang). We sincerely appreciate the valuable comments provided by the ICLR 2026 reviewers, where we benefit a lot from them.
 
 ### Citation
 

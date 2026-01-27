@@ -56,7 +56,7 @@ You can also check our previous work [FreeTumor](https://github.com/Luffy03/Free
 
 ### Acknowledgement <a name="Acknowledgment"></a>
 
-We thank Prof. [Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and Dr. [Song Gu](https://scholar.google.com/citations?user=n2ddmEMAAAAJ&hl=zh-CN) for their support. We also learn a lot from Dr. [Ziyan Huang's](https://scholar.google.com/citations?user=BshL3fUAAAAJ&hl=en) champion solution of [FLARE 22&24](https://github.com/Ziyan-Huang). We sincerely appreciate the valuable comments provided by the ICLR 2026 reviewers, where we benefit a lot from them.
+We thank Prof. [Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and Dr. [Song Gu](https://scholar.google.com/citations?user=n2ddmEMAAAAJ&hl=zh-CN) for their support. We also learn a lot from Dr. [Ziyan Huang's](https://scholar.google.com/citations?user=BshL3fUAAAAJ&hl=en) champion solution of [FLARE 22&24](https://github.com/Ziyan-Huang). We sincerely appreciate the valuable comments provided by the [ICLR 2026 reviewers](https://openreview.net/forum?id=qsSIBK6nJX), where we benefit a lot from them.
 
 ### Citation
 

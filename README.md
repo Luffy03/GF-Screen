@@ -5,7 +5,7 @@
 <a href='https://huggingface.co/datasets/linshangmail/Pancancer'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green' alt='Dataset'></a>
 </div>
 
-Paper: Linshan Wu, Jiaxin Zhuang, [Hao Chen](https://scholar.google.com/citations?user=Z_t5DjwAAAAJ&hl=en). [Glance and Focus Reinforcement for Pancancer Screening]. ICLR 2026
+Linshan Wu, Jiaxin Zhuang, [Hao Chen](https://scholar.google.com/citations?user=Z_t5DjwAAAAJ&hl=en). **Glance and Focus Reinforcement for Pan-cancer Screening**. ICLR 2026
 
 ### Introduction
 Pan-cancer screening in large-scale CT scans remains challenging for existing AI methods, primarily due to the difficulty of localizing diverse types of tiny lesions in large CT volumes. The extreme foreground-background imbalance significantly hinders models from focusing on diseased regions, while redundant focus on healthy regions not only decreases the efficiency but also increases false positives. Inspired by radiologists' glance and focus diagnostic strategy, we introduce **GF-Screen**, a Glance and Focus reinforcement learning framework for pan-cancer screening. GF-Screen employs a Glance model to localize the diseased regions and a Focus model to precisely segment the lesions, where segmentation results of the Focus model are leveraged to reward the Glance model via Reinforcement Learning (RL). Specifically, the Glance model crops a group of sub-volumes from the entire CT volume and learns to select the sub-volumes with lesions for the Focus model to segment. Given that the selecting operation is non-differentiable for segmentation training, we propose to employ the segmentation results to reward the Glance model. To optimize the Glance model, we introduce a novel group relative learning paradigm, which employs group relative comparison to prioritize high-advantage predictions and discard low-advantage predictions within sub-volume groups, not only improving efficiency but also reducing false positives. In this way, for the first time, we effectively extend cutting-edge RL techniques to tackle the specific challenges in pan-cancer screening.
@@ -56,7 +56,7 @@ You can also check our previous work [FreeTumor](https://github.com/Luffy03/Free
 
 ### Acknowledgement <a name="Acknowledgment"></a>
 
-We thank Prof. [Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and Dr. [Song Gu](https://scholar.google.com/citations?user=n2ddmEMAAAAJ&hl=zh-CN) for their support. We also learn a lot from Dr. [Ziyan Huang's](https://scholar.google.com/citations?user=BshL3fUAAAAJ&hl=en) champion solution of [FLARE 22&24](https://github.com/Ziyan-Huang).
+We thank Prof. [Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&hl=en) and Dr. [Song Gu](https://scholar.google.com/citations?user=n2ddmEMAAAAJ&hl=zh-CN) for their support. We also learn a lot from Dr. [Ziyan Huang's](https://scholar.google.com/citations?user=BshL3fUAAAAJ&hl=en) champion solution of [FLARE 22&24](https://github.com/Ziyan-Huang). We sincerely appreciate the valuable comments provided by the [ICLR 2026 reviewers](https://openreview.net/forum?id=qsSIBK6nJX&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)), where we benefit a lot from them.
 
 ### Citation
 

@@ -1,0 +1,3942 @@
+{
+    "description": "0",
+    "licence": "hands off!",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "pancancer",
+    "numTraining": 628,
+    "numValidation": 157,
+    "reference": "0",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "training": [
+        {
+            "image": "./healthy_atlas/BDMAP_00002703_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002703.nii.gz",
+            "name": "BDMAP_00002703"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004833_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004833.nii.gz",
+            "name": "BDMAP_00004833"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005013_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005013.nii.gz",
+            "name": "BDMAP_00005013"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002004_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002004.nii.gz",
+            "name": "BDMAP_00002004"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002384_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002384.nii.gz",
+            "name": "BDMAP_00002384"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001259_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001259.nii.gz",
+            "name": "BDMAP_00001259"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001787_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001787.nii.gz",
+            "name": "BDMAP_00001787"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000958_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000958.nii.gz",
+            "name": "BDMAP_00000958"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004660_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004660.nii.gz",
+            "name": "BDMAP_00004660"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003652_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003652.nii.gz",
+            "name": "BDMAP_00003652"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005050_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005050.nii.gz",
+            "name": "BDMAP_00005050"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000870_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000870.nii.gz",
+            "name": "BDMAP_00000870"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001694_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001694.nii.gz",
+            "name": "BDMAP_00001694"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003241_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003241.nii.gz",
+            "name": "BDMAP_00003241"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002031_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002031.nii.gz",
+            "name": "BDMAP_00002031"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000629_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000629.nii.gz",
+            "name": "BDMAP_00000629"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004611_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004611.nii.gz",
+            "name": "BDMAP_00004611"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002606_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002606.nii.gz",
+            "name": "BDMAP_00002606"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002280_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002280.nii.gz",
+            "name": "BDMAP_00002280"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000298_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000298.nii.gz",
+            "name": "BDMAP_00000298"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003410_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003410.nii.gz",
+            "name": "BDMAP_00003410"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003346_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003346.nii.gz",
+            "name": "BDMAP_00003346"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000770_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000770.nii.gz",
+            "name": "BDMAP_00000770"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002061_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002061.nii.gz",
+            "name": "BDMAP_00002061"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000617_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000617.nii.gz",
+            "name": "BDMAP_00000617"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002969_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002969.nii.gz",
+            "name": "BDMAP_00002969"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000818_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000818.nii.gz",
+            "name": "BDMAP_00000818"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003623_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003623.nii.gz",
+            "name": "BDMAP_00003623"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000884_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000884.nii.gz",
+            "name": "BDMAP_00000884"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002660_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002660.nii.gz",
+            "name": "BDMAP_00002660"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000645_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000645.nii.gz",
+            "name": "BDMAP_00000645"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001399_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001399.nii.gz",
+            "name": "BDMAP_00001399"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003477_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003477.nii.gz",
+            "name": "BDMAP_00003477"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004019_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004019.nii.gz",
+            "name": "BDMAP_00004019"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000068_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000068.nii.gz",
+            "name": "BDMAP_00000068"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001369_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001369.nii.gz",
+            "name": "BDMAP_00001369"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003725_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003725.nii.gz",
+            "name": "BDMAP_00003725"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002671_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002671.nii.gz",
+            "name": "BDMAP_00002671"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001974_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001974.nii.gz",
+            "name": "BDMAP_00001974"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001547_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001547.nii.gz",
+            "name": "BDMAP_00001547"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004539_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004539.nii.gz",
+            "name": "BDMAP_00004539"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004637_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004637.nii.gz",
+            "name": "BDMAP_00004637"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002386_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002386.nii.gz",
+            "name": "BDMAP_00002386"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002576_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002576.nii.gz",
+            "name": "BDMAP_00002576"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001363_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001363.nii.gz",
+            "name": "BDMAP_00001363"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004022_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004022.nii.gz",
+            "name": "BDMAP_00004022"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000507_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000507.nii.gz",
+            "name": "BDMAP_00000507"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000267_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000267.nii.gz",
+            "name": "BDMAP_00000267"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003093_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003093.nii.gz",
+            "name": "BDMAP_00003093"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004590_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004590.nii.gz",
+            "name": "BDMAP_00004590"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003011_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003011.nii.gz",
+            "name": "BDMAP_00003011"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004051_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004051.nii.gz",
+            "name": "BDMAP_00004051"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004223_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004223.nii.gz",
+            "name": "BDMAP_00004223"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003669_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003669.nii.gz",
+            "name": "BDMAP_00003669"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004107_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004107.nii.gz",
+            "name": "BDMAP_00004107"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004769_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004769.nii.gz",
+            "name": "BDMAP_00004769"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003625_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003625.nii.gz",
+            "name": "BDMAP_00003625"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001320_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001320.nii.gz",
+            "name": "BDMAP_00001320"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003712_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003712.nii.gz",
+            "name": "BDMAP_00003712"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000014_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000014.nii.gz",
+            "name": "BDMAP_00000014"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004166_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004166.nii.gz",
+            "name": "BDMAP_00004166"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000292_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000292.nii.gz",
+            "name": "BDMAP_00000292"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003547_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003547.nii.gz",
+            "name": "BDMAP_00003547"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004610_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004610.nii.gz",
+            "name": "BDMAP_00004610"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003243_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003243.nii.gz",
+            "name": "BDMAP_00003243"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001231_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001231.nii.gz",
+            "name": "BDMAP_00001231"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004696_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004696.nii.gz",
+            "name": "BDMAP_00004696"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002206_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002206.nii.gz",
+            "name": "BDMAP_00002206"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001855_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001855.nii.gz",
+            "name": "BDMAP_00001855"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005121_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005121.nii.gz",
+            "name": "BDMAP_00005121"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002249_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002249.nii.gz",
+            "name": "BDMAP_00002249"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000467_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000467.nii.gz",
+            "name": "BDMAP_00000467"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001234_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001234.nii.gz",
+            "name": "BDMAP_00001234"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000443_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000443.nii.gz",
+            "name": "BDMAP_00000443"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003322_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003322.nii.gz",
+            "name": "BDMAP_00003322"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003617_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003617.nii.gz",
+            "name": "BDMAP_00003617"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001423_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001423.nii.gz",
+            "name": "BDMAP_00001423"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003596_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003596.nii.gz",
+            "name": "BDMAP_00003596"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000287_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000287.nii.gz",
+            "name": "BDMAP_00000287"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001846_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001846.nii.gz",
+            "name": "BDMAP_00001846"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001821_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001821.nii.gz",
+            "name": "BDMAP_00001821"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003311_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003311.nii.gz",
+            "name": "BDMAP_00003311"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001216_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001216.nii.gz",
+            "name": "BDMAP_00001216"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002275_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002275.nii.gz",
+            "name": "BDMAP_00002275"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002658_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002658.nii.gz",
+            "name": "BDMAP_00002658"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000252_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000252.nii.gz",
+            "name": "BDMAP_00000252"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002912_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002912.nii.gz",
+            "name": "BDMAP_00002912"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004580_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004580.nii.gz",
+            "name": "BDMAP_00004580"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002391_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002391.nii.gz",
+            "name": "BDMAP_00002391"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002274_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002274.nii.gz",
+            "name": "BDMAP_00002274"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005096_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005096.nii.gz",
+            "name": "BDMAP_00005096"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004642_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004642.nii.gz",
+            "name": "BDMAP_00004642"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005144_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005144.nii.gz",
+            "name": "BDMAP_00005144"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000960_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000960.nii.gz",
+            "name": "BDMAP_00000960"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002563_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002563.nii.gz",
+            "name": "BDMAP_00002563"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001347_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001347.nii.gz",
+            "name": "BDMAP_00001347"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002988_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002988.nii.gz",
+            "name": "BDMAP_00002988"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003076_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003076.nii.gz",
+            "name": "BDMAP_00003076"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000806_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000806.nii.gz",
+            "name": "BDMAP_00000806"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000272_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000272.nii.gz",
+            "name": "BDMAP_00000272"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002058_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002058.nii.gz",
+            "name": "BDMAP_00002058"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003953_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003953.nii.gz",
+            "name": "BDMAP_00003953"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004263_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004263.nii.gz",
+            "name": "BDMAP_00004263"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003586_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003586.nii.gz",
+            "name": "BDMAP_00003586"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003696_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003696.nii.gz",
+            "name": "BDMAP_00003696"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000472_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000472.nii.gz",
+            "name": "BDMAP_00000472"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004099_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004099.nii.gz",
+            "name": "BDMAP_00004099"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002316_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002316.nii.gz",
+            "name": "BDMAP_00002316"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000680_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000680.nii.gz",
+            "name": "BDMAP_00000680"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004465_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004465.nii.gz",
+            "name": "BDMAP_00004465"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001616_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001616.nii.gz",
+            "name": "BDMAP_00001616"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003419_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003419.nii.gz",
+            "name": "BDMAP_00003419"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001674_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001674.nii.gz",
+            "name": "BDMAP_00001674"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004560_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004560.nii.gz",
+            "name": "BDMAP_00004560"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002406_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002406.nii.gz",
+            "name": "BDMAP_00002406"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003273_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003273.nii.gz",
+            "name": "BDMAP_00003273"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001738_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001738.nii.gz",
+            "name": "BDMAP_00001738"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004440_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004440.nii.gz",
+            "name": "BDMAP_00004440"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004300_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004300.nii.gz",
+            "name": "BDMAP_00004300"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002734_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002734.nii.gz",
+            "name": "BDMAP_00002734"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003089_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003089.nii.gz",
+            "name": "BDMAP_00003089"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004945_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004945.nii.gz",
+            "name": "BDMAP_00004945"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000893_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000893.nii.gz",
+            "name": "BDMAP_00000893"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002740_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002740.nii.gz",
+            "name": "BDMAP_00002740"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001076_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001076.nii.gz",
+            "name": "BDMAP_00001076"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002561_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002561.nii.gz",
+            "name": "BDMAP_00002561"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000314_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000314.nii.gz",
+            "name": "BDMAP_00000314"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003690_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003690.nii.gz",
+            "name": "BDMAP_00003690"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004466_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004466.nii.gz",
+            "name": "BDMAP_00004466"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003485_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003485.nii.gz",
+            "name": "BDMAP_00003485"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005025_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005025.nii.gz",
+            "name": "BDMAP_00005025"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000996_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000996.nii.gz",
+            "name": "BDMAP_00000996"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002150_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002150.nii.gz",
+            "name": "BDMAP_00002150"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003503_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003503.nii.gz",
+            "name": "BDMAP_00003503"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003325_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003325.nii.gz",
+            "name": "BDMAP_00003325"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001153_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001153.nii.gz",
+            "name": "BDMAP_00001153"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003559_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003559.nii.gz",
+            "name": "BDMAP_00003559"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002586_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002586.nii.gz",
+            "name": "BDMAP_00002586"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003466_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003466.nii.gz",
+            "name": "BDMAP_00003466"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003216_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003216.nii.gz",
+            "name": "BDMAP_00003216"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003399_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003399.nii.gz",
+            "name": "BDMAP_00003399"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001934_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001934.nii.gz",
+            "name": "BDMAP_00001934"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005181_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005181.nii.gz",
+            "name": "BDMAP_00005181"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004409_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004409.nii.gz",
+            "name": "BDMAP_00004409"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003810_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003810.nii.gz",
+            "name": "BDMAP_00003810"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004188_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004188.nii.gz",
+            "name": "BDMAP_00004188"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003403_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003403.nii.gz",
+            "name": "BDMAP_00003403"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000335_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000335.nii.gz",
+            "name": "BDMAP_00000335"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004962_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004962.nii.gz",
+            "name": "BDMAP_00004962"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004425_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004425.nii.gz",
+            "name": "BDMAP_00004425"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004819_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004819.nii.gz",
+            "name": "BDMAP_00004819"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003969_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003969.nii.gz",
+            "name": "BDMAP_00003969"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001714_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001714.nii.gz",
+            "name": "BDMAP_00001714"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003665_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003665.nii.gz",
+            "name": "BDMAP_00003665"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000047_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000047.nii.gz",
+            "name": "BDMAP_00000047"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003285_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003285.nii.gz",
+            "name": "BDMAP_00003285"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001815_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001815.nii.gz",
+            "name": "BDMAP_00001815"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001245_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001245.nii.gz",
+            "name": "BDMAP_00001245"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002987_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002987.nii.gz",
+            "name": "BDMAP_00002987"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004008_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004008.nii.gz",
+            "name": "BDMAP_00004008"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003544_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003544.nii.gz",
+            "name": "BDMAP_00003544"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004252_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004252.nii.gz",
+            "name": "BDMAP_00004252"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002450_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002450.nii.gz",
+            "name": "BDMAP_00002450"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001082_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001082.nii.gz",
+            "name": "BDMAP_00001082"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000275_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000275.nii.gz",
+            "name": "BDMAP_00000275"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002054_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002054.nii.gz",
+            "name": "BDMAP_00002054"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000126_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000126.nii.gz",
+            "name": "BDMAP_00000126"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000865_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000865.nii.gz",
+            "name": "BDMAP_00000865"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002757_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002757.nii.gz",
+            "name": "BDMAP_00002757"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002681_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002681.nii.gz",
+            "name": "BDMAP_00002681"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001217_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001217.nii.gz",
+            "name": "BDMAP_00001217"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001113_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001113.nii.gz",
+            "name": "BDMAP_00001113"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003068_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003068.nii.gz",
+            "name": "BDMAP_00003068"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002489_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002489.nii.gz",
+            "name": "BDMAP_00002489"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004314_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004314.nii.gz",
+            "name": "BDMAP_00004314"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002299_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002299.nii.gz",
+            "name": "BDMAP_00002299"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000350_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000350.nii.gz",
+            "name": "BDMAP_00000350"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002965_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002965.nii.gz",
+            "name": "BDMAP_00002965"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004795_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004795.nii.gz",
+            "name": "BDMAP_00004795"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003584_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003584.nii.gz",
+            "name": "BDMAP_00003584"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003773_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003773.nii.gz",
+            "name": "BDMAP_00003773"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003818_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003818.nii.gz",
+            "name": "BDMAP_00003818"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003807_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003807.nii.gz",
+            "name": "BDMAP_00003807"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004567_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004567.nii.gz",
+            "name": "BDMAP_00004567"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003458_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003458.nii.gz",
+            "name": "BDMAP_00003458"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002974_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002974.nii.gz",
+            "name": "BDMAP_00002974"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001053_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001053.nii.gz",
+            "name": "BDMAP_00001053"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001864_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001864.nii.gz",
+            "name": "BDMAP_00001864"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003718_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003718.nii.gz",
+            "name": "BDMAP_00003718"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000957_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000957.nii.gz",
+            "name": "BDMAP_00000957"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003999_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003999.nii.gz",
+            "name": "BDMAP_00003999"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002269_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002269.nii.gz",
+            "name": "BDMAP_00002269"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004778_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004778.nii.gz",
+            "name": "BDMAP_00004778"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001599_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001599.nii.gz",
+            "name": "BDMAP_00001599"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003317_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003317.nii.gz",
+            "name": "BDMAP_00003317"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000136_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000136.nii.gz",
+            "name": "BDMAP_00000136"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000566_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000566.nii.gz",
+            "name": "BDMAP_00000566"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000049_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000049.nii.gz",
+            "name": "BDMAP_00000049"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004428_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004428.nii.gz",
+            "name": "BDMAP_00004428"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003474_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003474.nii.gz",
+            "name": "BDMAP_00003474"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004572_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004572.nii.gz",
+            "name": "BDMAP_00004572"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000970_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000970.nii.gz",
+            "name": "BDMAP_00000970"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004832_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004832.nii.gz",
+            "name": "BDMAP_00004832"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002014_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002014.nii.gz",
+            "name": "BDMAP_00002014"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005118_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005118.nii.gz",
+            "name": "BDMAP_00005118"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002777_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002777.nii.gz",
+            "name": "BDMAP_00002777"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003724_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003724.nii.gz",
+            "name": "BDMAP_00003724"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002994_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002994.nii.gz",
+            "name": "BDMAP_00002994"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001915_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001915.nii.gz",
+            "name": "BDMAP_00001915"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003693_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003693.nii.gz",
+            "name": "BDMAP_00003693"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004182_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004182.nii.gz",
+            "name": "BDMAP_00004182"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000719_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000719.nii.gz",
+            "name": "BDMAP_00000719"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004653_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004653.nii.gz",
+            "name": "BDMAP_00004653"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004412_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004412.nii.gz",
+            "name": "BDMAP_00004412"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003515_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003515.nii.gz",
+            "name": "BDMAP_00003515"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004006_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004006.nii.gz",
+            "name": "BDMAP_00004006"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001503_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001503.nii.gz",
+            "name": "BDMAP_00001503"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002443_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002443.nii.gz",
+            "name": "BDMAP_00002443"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003278_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003278.nii.gz",
+            "name": "BDMAP_00003278"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005019_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005019.nii.gz",
+            "name": "BDMAP_00005019"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004931_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004931.nii.gz",
+            "name": "BDMAP_00004931"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002123_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002123.nii.gz",
+            "name": "BDMAP_00002123"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004540_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004540.nii.gz",
+            "name": "BDMAP_00004540"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001203_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001203.nii.gz",
+            "name": "BDMAP_00001203"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002869_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002869.nii.gz",
+            "name": "BDMAP_00002869"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003492_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003492.nii.gz",
+            "name": "BDMAP_00003492"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004001_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004001.nii.gz",
+            "name": "BDMAP_00004001"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000795_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000795.nii.gz",
+            "name": "BDMAP_00000795"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002853_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002853.nii.gz",
+            "name": "BDMAP_00002853"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000727_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000727.nii.gz",
+            "name": "BDMAP_00000727"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004644_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004644.nii.gz",
+            "name": "BDMAP_00004644"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002222_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002222.nii.gz",
+            "name": "BDMAP_00002222"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002613_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002613.nii.gz",
+            "name": "BDMAP_00002613"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002023_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002023.nii.gz",
+            "name": "BDMAP_00002023"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004114_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004114.nii.gz",
+            "name": "BDMAP_00004114"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000845_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000845.nii.gz",
+            "name": "BDMAP_00000845"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003624_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003624.nii.gz",
+            "name": "BDMAP_00003624"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004900_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004900.nii.gz",
+            "name": "BDMAP_00004900"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004799_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004799.nii.gz",
+            "name": "BDMAP_00004799"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002536_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002536.nii.gz",
+            "name": "BDMAP_00002536"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005049_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005049.nii.gz",
+            "name": "BDMAP_00005049"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001179_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001179.nii.gz",
+            "name": "BDMAP_00001179"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001790_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001790.nii.gz",
+            "name": "BDMAP_00001790"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004827_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004827.nii.gz",
+            "name": "BDMAP_00004827"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000838_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000838.nii.gz",
+            "name": "BDMAP_00000838"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002533_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002533.nii.gz",
+            "name": "BDMAP_00002533"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000468_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000468.nii.gz",
+            "name": "BDMAP_00000468"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001101_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001101.nii.gz",
+            "name": "BDMAP_00001101"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001582_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001582.nii.gz",
+            "name": "BDMAP_00001582"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005119_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005119.nii.gz",
+            "name": "BDMAP_00005119"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001073_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001073.nii.gz",
+            "name": "BDMAP_00001073"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004729_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004729.nii.gz",
+            "name": "BDMAP_00004729"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001659_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001659.nii.gz",
+            "name": "BDMAP_00001659"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000392_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000392.nii.gz",
+            "name": "BDMAP_00000392"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001415_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001415.nii.gz",
+            "name": "BDMAP_00001415"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001512_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001512.nii.gz",
+            "name": "BDMAP_00001512"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004997_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004997.nii.gz",
+            "name": "BDMAP_00004997"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003931_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003931.nii.gz",
+            "name": "BDMAP_00003931"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000095_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000095.nii.gz",
+            "name": "BDMAP_00000095"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004941_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004941.nii.gz",
+            "name": "BDMAP_00004941"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001037_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001037.nii.gz",
+            "name": "BDMAP_00001037"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000891_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000891.nii.gz",
+            "name": "BDMAP_00000891"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002455_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002455.nii.gz",
+            "name": "BDMAP_00002455"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004335_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004335.nii.gz",
+            "name": "BDMAP_00004335"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003643_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003643.nii.gz",
+            "name": "BDMAP_00003643"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000551_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000551.nii.gz",
+            "name": "BDMAP_00000551"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003908_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003908.nii.gz",
+            "name": "BDMAP_00003908"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000728_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000728.nii.gz",
+            "name": "BDMAP_00000728"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003588_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003588.nii.gz",
+            "name": "BDMAP_00003588"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003104_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003104.nii.gz",
+            "name": "BDMAP_00003104"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003003_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003003.nii.gz",
+            "name": "BDMAP_00003003"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003674_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003674.nii.gz",
+            "name": "BDMAP_00003674"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003799_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003799.nii.gz",
+            "name": "BDMAP_00003799"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004366_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004366.nii.gz",
+            "name": "BDMAP_00004366"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003037_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003037.nii.gz",
+            "name": "BDMAP_00003037"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000200_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000200.nii.gz",
+            "name": "BDMAP_00000200"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005053_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005053.nii.gz",
+            "name": "BDMAP_00005053"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002032_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002032.nii.gz",
+            "name": "BDMAP_00002032"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002303_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002303.nii.gz",
+            "name": "BDMAP_00002303"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000953_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000953.nii.gz",
+            "name": "BDMAP_00000953"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004626_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004626.nii.gz",
+            "name": "BDMAP_00004626"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001788_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001788.nii.gz",
+            "name": "BDMAP_00001788"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004064_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004064.nii.gz",
+            "name": "BDMAP_00004064"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001271_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001271.nii.gz",
+            "name": "BDMAP_00001271"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002142_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002142.nii.gz",
+            "name": "BDMAP_00002142"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003605_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003605.nii.gz",
+            "name": "BDMAP_00003605"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003732_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003732.nii.gz",
+            "name": "BDMAP_00003732"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004915_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004915.nii.gz",
+            "name": "BDMAP_00004915"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000433_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000433.nii.gz",
+            "name": "BDMAP_00000433"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004596_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004596.nii.gz",
+            "name": "BDMAP_00004596"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002256_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002256.nii.gz",
+            "name": "BDMAP_00002256"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002628_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002628.nii.gz",
+            "name": "BDMAP_00002628"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001687_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001687.nii.gz",
+            "name": "BDMAP_00001687"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002521_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002521.nii.gz",
+            "name": "BDMAP_00002521"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002820_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002820.nii.gz",
+            "name": "BDMAP_00002820"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003088_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003088.nii.gz",
+            "name": "BDMAP_00003088"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004515_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004515.nii.gz",
+            "name": "BDMAP_00004515"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002013_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002013.nii.gz",
+            "name": "BDMAP_00002013"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000184_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000184.nii.gz",
+            "name": "BDMAP_00000184"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002385_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002385.nii.gz",
+            "name": "BDMAP_00002385"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003692_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003692.nii.gz",
+            "name": "BDMAP_00003692"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001641_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001641.nii.gz",
+            "name": "BDMAP_00001641"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003397_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003397.nii.gz",
+            "name": "BDMAP_00003397"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002490_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002490.nii.gz",
+            "name": "BDMAP_00002490"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004422_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004422.nii.gz",
+            "name": "BDMAP_00004422"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000448_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000448.nii.gz",
+            "name": "BDMAP_00000448"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001608_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001608.nii.gz",
+            "name": "BDMAP_00001608"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003166_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003166.nii.gz",
+            "name": "BDMAP_00003166"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002036_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002036.nii.gz",
+            "name": "BDMAP_00002036"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004040_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004040.nii.gz",
+            "name": "BDMAP_00004040"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005098_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005098.nii.gz",
+            "name": "BDMAP_00005098"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004681_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004681.nii.gz",
+            "name": "BDMAP_00004681"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003271_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003271.nii.gz",
+            "name": "BDMAP_00003271"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004047_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004047.nii.gz",
+            "name": "BDMAP_00004047"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003414_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003414.nii.gz",
+            "name": "BDMAP_00003414"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001611_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001611.nii.gz",
+            "name": "BDMAP_00001611"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003761_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003761.nii.gz",
+            "name": "BDMAP_00003761"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000599_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000599.nii.gz",
+            "name": "BDMAP_00000599"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002964_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002964.nii.gz",
+            "name": "BDMAP_00002964"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000886_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000886.nii.gz",
+            "name": "BDMAP_00000886"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003159_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003159.nii.gz",
+            "name": "BDMAP_00003159"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005028_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005028.nii.gz",
+            "name": "BDMAP_00005028"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001569_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001569.nii.gz",
+            "name": "BDMAP_00001569"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000079_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000079.nii.gz",
+            "name": "BDMAP_00000079"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001812_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001812.nii.gz",
+            "name": "BDMAP_00001812"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003764_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003764.nii.gz",
+            "name": "BDMAP_00003764"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000664_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000664.nii.gz",
+            "name": "BDMAP_00000664"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004473_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004473.nii.gz",
+            "name": "BDMAP_00004473"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003819_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003819.nii.gz",
+            "name": "BDMAP_00003819"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002535_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002535.nii.gz",
+            "name": "BDMAP_00002535"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004455_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004455.nii.gz",
+            "name": "BDMAP_00004455"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001433_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001433.nii.gz",
+            "name": "BDMAP_00001433"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002177_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002177.nii.gz",
+            "name": "BDMAP_00002177"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000203_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000203.nii.gz",
+            "name": "BDMAP_00000203"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000372_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000372.nii.gz",
+            "name": "BDMAP_00000372"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004245_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004245.nii.gz",
+            "name": "BDMAP_00004245"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004810_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004810.nii.gz",
+            "name": "BDMAP_00004810"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004436_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004436.nii.gz",
+            "name": "BDMAP_00004436"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004716_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004716.nii.gz",
+            "name": "BDMAP_00004716"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001773_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001773.nii.gz",
+            "name": "BDMAP_00001773"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004831_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004831.nii.gz",
+            "name": "BDMAP_00004831"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002297_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002297.nii.gz",
+            "name": "BDMAP_00002297"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000227_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000227.nii.gz",
+            "name": "BDMAP_00000227"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001466_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001466.nii.gz",
+            "name": "BDMAP_00001466"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000766_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000766.nii.gz",
+            "name": "BDMAP_00000766"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002506_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002506.nii.gz",
+            "name": "BDMAP_00002506"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001555_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001555.nii.gz",
+            "name": "BDMAP_00001555"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005131_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005131.nii.gz",
+            "name": "BDMAP_00005131"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003246_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003246.nii.gz",
+            "name": "BDMAP_00003246"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003770_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003770.nii.gz",
+            "name": "BDMAP_00003770"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001626_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001626.nii.gz",
+            "name": "BDMAP_00001626"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000385_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000385.nii.gz",
+            "name": "BDMAP_00000385"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005071_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005071.nii.gz",
+            "name": "BDMAP_00005071"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001365_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001365.nii.gz",
+            "name": "BDMAP_00001365"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002207_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002207.nii.gz",
+            "name": "BDMAP_00002207"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002755_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002755.nii.gz",
+            "name": "BDMAP_00002755"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002373_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002373.nii.gz",
+            "name": "BDMAP_00002373"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003306_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003306.nii.gz",
+            "name": "BDMAP_00003306"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002684_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002684.nii.gz",
+            "name": "BDMAP_00002684"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001567_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001567.nii.gz",
+            "name": "BDMAP_00001567"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004042_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004042.nii.gz",
+            "name": "BDMAP_00004042"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002978_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002978.nii.gz",
+            "name": "BDMAP_00002978"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002374_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002374.nii.gz",
+            "name": "BDMAP_00002374"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003352_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003352.nii.gz",
+            "name": "BDMAP_00003352"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005024_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005024.nii.gz",
+            "name": "BDMAP_00005024"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000808_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000808.nii.gz",
+            "name": "BDMAP_00000808"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003139_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003139.nii.gz",
+            "name": "BDMAP_00003139"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004111_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004111.nii.gz",
+            "name": "BDMAP_00004111"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001681_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001681.nii.gz",
+            "name": "BDMAP_00001681"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003179_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003179.nii.gz",
+            "name": "BDMAP_00003179"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004996_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004996.nii.gz",
+            "name": "BDMAP_00004996"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003512_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003512.nii.gz",
+            "name": "BDMAP_00003512"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001049_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001049.nii.gz",
+            "name": "BDMAP_00001049"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002888_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002888.nii.gz",
+            "name": "BDMAP_00002888"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001137_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001137.nii.gz",
+            "name": "BDMAP_00001137"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000658_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000658.nii.gz",
+            "name": "BDMAP_00000658"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002070_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002070.nii.gz",
+            "name": "BDMAP_00002070"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004382_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004382.nii.gz",
+            "name": "BDMAP_00004382"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002469_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002469.nii.gz",
+            "name": "BDMAP_00002469"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001436_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001436.nii.gz",
+            "name": "BDMAP_00001436"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001627_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001627.nii.gz",
+            "name": "BDMAP_00001627"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000341_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000341.nii.gz",
+            "name": "BDMAP_00000341"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000625_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000625.nii.gz",
+            "name": "BDMAP_00000625"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004935_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004935.nii.gz",
+            "name": "BDMAP_00004935"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003413_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003413.nii.gz",
+            "name": "BDMAP_00003413"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003291_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003291.nii.gz",
+            "name": "BDMAP_00003291"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001100_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001100.nii.gz",
+            "name": "BDMAP_00001100"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003875_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003875.nii.gz",
+            "name": "BDMAP_00003875"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004919_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004919.nii.gz",
+            "name": "BDMAP_00004919"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000228_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000228.nii.gz",
+            "name": "BDMAP_00000228"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000708_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000708.nii.gz",
+            "name": "BDMAP_00000708"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003147_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003147.nii.gz",
+            "name": "BDMAP_00003147"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004506_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004506.nii.gz",
+            "name": "BDMAP_00004506"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003010_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003010.nii.gz",
+            "name": "BDMAP_00003010"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001494_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001494.nii.gz",
+            "name": "BDMAP_00001494"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004961_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004961.nii.gz",
+            "name": "BDMAP_00004961"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001775_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001775.nii.gz",
+            "name": "BDMAP_00001775"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001750_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001750.nii.gz",
+            "name": "BDMAP_00001750"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004698_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004698.nii.gz",
+            "name": "BDMAP_00004698"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001885_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001885.nii.gz",
+            "name": "BDMAP_00001885"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002809_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002809.nii.gz",
+            "name": "BDMAP_00002809"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000700_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000700.nii.gz",
+            "name": "BDMAP_00000700"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004333_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004333.nii.gz",
+            "name": "BDMAP_00004333"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003302_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003302.nii.gz",
+            "name": "BDMAP_00003302"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003673_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003673.nii.gz",
+            "name": "BDMAP_00003673"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004921_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004921.nii.gz",
+            "name": "BDMAP_00004921"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001279_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001279.nii.gz",
+            "name": "BDMAP_00001279"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003044_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003044.nii.gz",
+            "name": "BDMAP_00003044"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002357_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002357.nii.gz",
+            "name": "BDMAP_00002357"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002334_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002334.nii.gz",
+            "name": "BDMAP_00002334"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000543_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000543.nii.gz",
+            "name": "BDMAP_00000543"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000142_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000142.nii.gz",
+            "name": "BDMAP_00000142"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004122_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004122.nii.gz",
+            "name": "BDMAP_00004122"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003662_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003662.nii.gz",
+            "name": "BDMAP_00003662"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004363_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004363.nii.gz",
+            "name": "BDMAP_00004363"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001047_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001047.nii.gz",
+            "name": "BDMAP_00001047"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005126_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005126.nii.gz",
+            "name": "BDMAP_00005126"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000284_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000284.nii.gz",
+            "name": "BDMAP_00000284"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000628_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000628.nii.gz",
+            "name": "BDMAP_00000628"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003706_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003706.nii.gz",
+            "name": "BDMAP_00003706"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002557_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002557.nii.gz",
+            "name": "BDMAP_00002557"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000174_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000174.nii.gz",
+            "name": "BDMAP_00000174"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003304_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003304.nii.gz",
+            "name": "BDMAP_00003304"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000763_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000763.nii.gz",
+            "name": "BDMAP_00000763"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004689_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004689.nii.gz",
+            "name": "BDMAP_00004689"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003498_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003498.nii.gz",
+            "name": "BDMAP_00003498"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001177_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001177.nii.gz",
+            "name": "BDMAP_00001177"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004037_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004037.nii.gz",
+            "name": "BDMAP_00004037"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002800_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002800.nii.gz",
+            "name": "BDMAP_00002800"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002028_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002028.nii.gz",
+            "name": "BDMAP_00002028"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000051_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000051.nii.gz",
+            "name": "BDMAP_00000051"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000222_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000222.nii.gz",
+            "name": "BDMAP_00000222"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003887_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003887.nii.gz",
+            "name": "BDMAP_00003887"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004116_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004116.nii.gz",
+            "name": "BDMAP_00004116"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001492_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001492.nii.gz",
+            "name": "BDMAP_00001492"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000639_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000639.nii.gz",
+            "name": "BDMAP_00000639"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002197_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002197.nii.gz",
+            "name": "BDMAP_00002197"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000973_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000973.nii.gz",
+            "name": "BDMAP_00000973"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002155_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002155.nii.gz",
+            "name": "BDMAP_00002155"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004568_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004568.nii.gz",
+            "name": "BDMAP_00004568"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001478_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001478.nii.gz",
+            "name": "BDMAP_00001478"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000028_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000028.nii.gz",
+            "name": "BDMAP_00000028"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000302_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000302.nii.gz",
+            "name": "BDMAP_00000302"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002958_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002958.nii.gz",
+            "name": "BDMAP_00002958"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001814_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001814.nii.gz",
+            "name": "BDMAP_00001814"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002140_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002140.nii.gz",
+            "name": "BDMAP_00002140"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001606_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001606.nii.gz",
+            "name": "BDMAP_00001606"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000326_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000326.nii.gz",
+            "name": "BDMAP_00000326"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004056_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004056.nii.gz",
+            "name": "BDMAP_00004056"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000018_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000018.nii.gz",
+            "name": "BDMAP_00000018"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004330_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004330.nii.gz",
+            "name": "BDMAP_00004330"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002597_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002597.nii.gz",
+            "name": "BDMAP_00002597"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002064_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002064.nii.gz",
+            "name": "BDMAP_00002064"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000822_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000822.nii.gz",
+            "name": "BDMAP_00000822"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004504_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004504.nii.gz",
+            "name": "BDMAP_00004504"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002782_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002782.nii.gz",
+            "name": "BDMAP_00002782"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000195_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000195.nii.gz",
+            "name": "BDMAP_00000195"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002377_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002377.nii.gz",
+            "name": "BDMAP_00002377"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002435_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002435.nii.gz",
+            "name": "BDMAP_00002435"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000209_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000209.nii.gz",
+            "name": "BDMAP_00000209"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001508_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001508.nii.gz",
+            "name": "BDMAP_00001508"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004153_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004153.nii.gz",
+            "name": "BDMAP_00004153"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001308_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001308.nii.gz",
+            "name": "BDMAP_00001308"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003290_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003290.nii.gz",
+            "name": "BDMAP_00003290"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005164_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005164.nii.gz",
+            "name": "BDMAP_00005164"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003937_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003937.nii.gz",
+            "name": "BDMAP_00003937"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000586_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000586.nii.gz",
+            "name": "BDMAP_00000586"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000504_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000504.nii.gz",
+            "name": "BDMAP_00000504"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004197_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004197.nii.gz",
+            "name": "BDMAP_00004197"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001667_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001667.nii.gz",
+            "name": "BDMAP_00001667"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000456_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000456.nii.gz",
+            "name": "BDMAP_00000456"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002565_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002565.nii.gz",
+            "name": "BDMAP_00002565"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004468_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004468.nii.gz",
+            "name": "BDMAP_00004468"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001123_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001123.nii.gz",
+            "name": "BDMAP_00001123"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001292_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001292.nii.gz",
+            "name": "BDMAP_00001292"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003804_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003804.nii.gz",
+            "name": "BDMAP_00003804"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004410_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004410.nii.gz",
+            "name": "BDMAP_00004410"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004362_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004362.nii.gz",
+            "name": "BDMAP_00004362"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002861_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002861.nii.gz",
+            "name": "BDMAP_00002861"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001468_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001468.nii.gz",
+            "name": "BDMAP_00001468"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001151_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001151.nii.gz",
+            "name": "BDMAP_00001151"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004599_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004599.nii.gz",
+            "name": "BDMAP_00004599"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000594_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000594.nii.gz",
+            "name": "BDMAP_00000594"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003351_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003351.nii.gz",
+            "name": "BDMAP_00003351"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001459_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001459.nii.gz",
+            "name": "BDMAP_00001459"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003156_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003156.nii.gz",
+            "name": "BDMAP_00003156"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003570_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003570.nii.gz",
+            "name": "BDMAP_00003570"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004055_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004055.nii.gz",
+            "name": "BDMAP_00004055"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000909_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000909.nii.gz",
+            "name": "BDMAP_00000909"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003242_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003242.nii.gz",
+            "name": "BDMAP_00003242"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002454_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002454.nii.gz",
+            "name": "BDMAP_00002454"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000991_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000991.nii.gz",
+            "name": "BDMAP_00000991"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000399_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000399.nii.gz",
+            "name": "BDMAP_00000399"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003192_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003192.nii.gz",
+            "name": "BDMAP_00003192"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001947_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001947.nii.gz",
+            "name": "BDMAP_00001947"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005045_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005045.nii.gz",
+            "name": "BDMAP_00005045"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004456_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004456.nii.gz",
+            "name": "BDMAP_00004456"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000071_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000071.nii.gz",
+            "name": "BDMAP_00000071"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001336_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001336.nii.gz",
+            "name": "BDMAP_00001336"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002702_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002702.nii.gz",
+            "name": "BDMAP_00002702"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002020_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002020.nii.gz",
+            "name": "BDMAP_00002020"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000535_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000535.nii.gz",
+            "name": "BDMAP_00000535"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001965_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001965.nii.gz",
+            "name": "BDMAP_00001965"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003423_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003423.nii.gz",
+            "name": "BDMAP_00003423"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002392_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002392.nii.gz",
+            "name": "BDMAP_00002392"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003029_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003029.nii.gz",
+            "name": "BDMAP_00003029"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001501_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001501.nii.gz",
+            "name": "BDMAP_00001501"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004602_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004602.nii.gz",
+            "name": "BDMAP_00004602"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000743_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000743.nii.gz",
+            "name": "BDMAP_00000743"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003965_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003965.nii.gz",
+            "name": "BDMAP_00003965"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004463_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004463.nii.gz",
+            "name": "BDMAP_00004463"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004668_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004668.nii.gz",
+            "name": "BDMAP_00004668"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004351_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004351.nii.gz",
+            "name": "BDMAP_00004351"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003518_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003518.nii.gz",
+            "name": "BDMAP_00003518"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003720_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003720.nii.gz",
+            "name": "BDMAP_00003720"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004734_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004734.nii.gz",
+            "name": "BDMAP_00004734"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002180_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002180.nii.gz",
+            "name": "BDMAP_00002180"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000560_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000560.nii.gz",
+            "name": "BDMAP_00000560"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004905_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004905.nii.gz",
+            "name": "BDMAP_00004905"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004920_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004920.nii.gz",
+            "name": "BDMAP_00004920"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000644_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000644.nii.gz",
+            "name": "BDMAP_00000644"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003766_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003766.nii.gz",
+            "name": "BDMAP_00003766"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003115_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003115.nii.gz",
+            "name": "BDMAP_00003115"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003905_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003905.nii.gz",
+            "name": "BDMAP_00003905"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000610_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000610.nii.gz",
+            "name": "BDMAP_00000610"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004403_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004403.nii.gz",
+            "name": "BDMAP_00004403"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003446_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003446.nii.gz",
+            "name": "BDMAP_00003446"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002482_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002482.nii.gz",
+            "name": "BDMAP_00002482"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001488_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001488.nii.gz",
+            "name": "BDMAP_00001488"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005048_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005048.nii.gz",
+            "name": "BDMAP_00005048"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002093_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002093.nii.gz",
+            "name": "BDMAP_00002093"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000315_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000315.nii.gz",
+            "name": "BDMAP_00000315"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003628_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003628.nii.gz",
+            "name": "BDMAP_00003628"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000224_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000224.nii.gz",
+            "name": "BDMAP_00000224"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003303_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003303.nii.gz",
+            "name": "BDMAP_00003303"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000089_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000089.nii.gz",
+            "name": "BDMAP_00000089"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000823_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000823.nii.gz",
+            "name": "BDMAP_00000823"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004628_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004628.nii.gz",
+            "name": "BDMAP_00004628"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000076_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000076.nii.gz",
+            "name": "BDMAP_00000076"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001356_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001356.nii.gz",
+            "name": "BDMAP_00001356"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003432_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003432.nii.gz",
+            "name": "BDMAP_00003432"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000999_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000999.nii.gz",
+            "name": "BDMAP_00000999"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003060_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003060.nii.gz",
+            "name": "BDMAP_00003060"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000312_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000312.nii.gz",
+            "name": "BDMAP_00000312"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004364_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004364.nii.gz",
+            "name": "BDMAP_00004364"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002859_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002859.nii.gz",
+            "name": "BDMAP_00002859"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004189_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004189.nii.gz",
+            "name": "BDMAP_00004189"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001700_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001700.nii.gz",
+            "name": "BDMAP_00001700"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001984_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001984.nii.gz",
+            "name": "BDMAP_00001984"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004176_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004176.nii.gz",
+            "name": "BDMAP_00004176"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001961_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001961.nii.gz",
+            "name": "BDMAP_00001961"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000479_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000479.nii.gz",
+            "name": "BDMAP_00000479"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002220_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002220.nii.gz",
+            "name": "BDMAP_00002220"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001354_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001354.nii.gz",
+            "name": "BDMAP_00001354"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001771_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001771.nii.gz",
+            "name": "BDMAP_00001771"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000875_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000875.nii.gz",
+            "name": "BDMAP_00000875"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002983_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002983.nii.gz",
+            "name": "BDMAP_00002983"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001570_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001570.nii.gz",
+            "name": "BDMAP_00001570"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004075_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004075.nii.gz",
+            "name": "BDMAP_00004075"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004857_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004857.nii.gz",
+            "name": "BDMAP_00004857"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002926_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002926.nii.gz",
+            "name": "BDMAP_00002926"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003988_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003988.nii.gz",
+            "name": "BDMAP_00003988"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001086_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001086.nii.gz",
+            "name": "BDMAP_00001086"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003160_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003160.nii.gz",
+            "name": "BDMAP_00003160"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001847_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001847.nii.gz",
+            "name": "BDMAP_00001847"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002759_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002759.nii.gz",
+            "name": "BDMAP_00002759"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004936_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004936.nii.gz",
+            "name": "BDMAP_00004936"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004516_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004516.nii.gz",
+            "name": "BDMAP_00004516"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002600_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002600.nii.gz",
+            "name": "BDMAP_00002600"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004236_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004236.nii.gz",
+            "name": "BDMAP_00004236"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003661_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003661.nii.gz",
+            "name": "BDMAP_00003661"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003102_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003102.nii.gz",
+            "name": "BDMAP_00003102"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004752_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004752.nii.gz",
+            "name": "BDMAP_00004752"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001579_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001579.nii.gz",
+            "name": "BDMAP_00001579"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002790_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002790.nii.gz",
+            "name": "BDMAP_00002790"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003871_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003871.nii.gz",
+            "name": "BDMAP_00003871"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000962_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000962.nii.gz",
+            "name": "BDMAP_00000962"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002110_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002110.nii.gz",
+            "name": "BDMAP_00002110"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001655_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001655.nii.gz",
+            "name": "BDMAP_00001655"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004725_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004725.nii.gz",
+            "name": "BDMAP_00004725"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003471_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003471.nii.gz",
+            "name": "BDMAP_00003471"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004258_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004258.nii.gz",
+            "name": "BDMAP_00004258"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003445_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003445.nii.gz",
+            "name": "BDMAP_00003445"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003233_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003233.nii.gz",
+            "name": "BDMAP_00003233"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003012_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003012.nii.gz",
+            "name": "BDMAP_00003012"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002892_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002892.nii.gz",
+            "name": "BDMAP_00002892"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002225_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002225.nii.gz",
+            "name": "BDMAP_00002225"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004909_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004909.nii.gz",
+            "name": "BDMAP_00004909"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003027_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003027.nii.gz",
+            "name": "BDMAP_00003027"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002365_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002365.nii.gz",
+            "name": "BDMAP_00002365"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001986_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001986.nii.gz",
+            "name": "BDMAP_00001986"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002308_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002308.nii.gz",
+            "name": "BDMAP_00002308"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002852_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002852.nii.gz",
+            "name": "BDMAP_00002852"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001229_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001229.nii.gz",
+            "name": "BDMAP_00001229"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005089_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005089.nii.gz",
+            "name": "BDMAP_00005089"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000308_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000308.nii.gz",
+            "name": "BDMAP_00000308"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000211_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000211.nii.gz",
+            "name": "BDMAP_00000211"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001145_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001145.nii.gz",
+            "name": "BDMAP_00001145"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001235_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001235.nii.gz",
+            "name": "BDMAP_00001235"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001734_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001734.nii.gz",
+            "name": "BDMAP_00001734"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001029_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001029.nii.gz",
+            "name": "BDMAP_00001029"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000752_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000752.nii.gz",
+            "name": "BDMAP_00000752"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003602_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003602.nii.gz",
+            "name": "BDMAP_00003602"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000523_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000523.nii.gz",
+            "name": "BDMAP_00000523"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005117_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005117.nii.gz",
+            "name": "BDMAP_00005117"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002985_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002985.nii.gz",
+            "name": "BDMAP_00002985"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002927_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002927.nii.gz",
+            "name": "BDMAP_00002927"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003695_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003695.nii.gz",
+            "name": "BDMAP_00003695"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004237_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004237.nii.gz",
+            "name": "BDMAP_00004237"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004898_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004898.nii.gz",
+            "name": "BDMAP_00004898"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003986_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003986.nii.gz",
+            "name": "BDMAP_00003986"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004848_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004848.nii.gz",
+            "name": "BDMAP_00004848"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001165_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001165.nii.gz",
+            "name": "BDMAP_00001165"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001387_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001387.nii.gz",
+            "name": "BDMAP_00001387"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001901_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001901.nii.gz",
+            "name": "BDMAP_00001901"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003837_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003837.nii.gz",
+            "name": "BDMAP_00003837"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004864_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004864.nii.gz",
+            "name": "BDMAP_00004864"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000597_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000597.nii.gz",
+            "name": "BDMAP_00000597"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002162_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002162.nii.gz",
+            "name": "BDMAP_00002162"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003270_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003270.nii.gz",
+            "name": "BDMAP_00003270"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004041_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004041.nii.gz",
+            "name": "BDMAP_00004041"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001526_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001526.nii.gz",
+            "name": "BDMAP_00001526"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001872_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001872.nii.gz",
+            "name": "BDMAP_00001872"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002764_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002764.nii.gz",
+            "name": "BDMAP_00002764"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001914_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001914.nii.gz",
+            "name": "BDMAP_00001914"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001007_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001007.nii.gz",
+            "name": "BDMAP_00001007"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001295_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001295.nii.gz",
+            "name": "BDMAP_00001295"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004916_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004916.nii.gz",
+            "name": "BDMAP_00004916"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./healthy_atlas/BDMAP_00002911_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002911.nii.gz",
+            "name": "BDMAP_00002911"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000573_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000573.nii.gz",
+            "name": "BDMAP_00000573"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004583_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004583.nii.gz",
+            "name": "BDMAP_00004583"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000483_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000483.nii.gz",
+            "name": "BDMAP_00000483"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002880_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002880.nii.gz",
+            "name": "BDMAP_00002880"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003925_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003925.nii.gz",
+            "name": "BDMAP_00003925"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002217_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002217.nii.gz",
+            "name": "BDMAP_00002217"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002161_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002161.nii.gz",
+            "name": "BDMAP_00002161"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001374_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001374.nii.gz",
+            "name": "BDMAP_00001374"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002046_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002046.nii.gz",
+            "name": "BDMAP_00002046"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000952_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000952.nii.gz",
+            "name": "BDMAP_00000952"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004218_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004218.nii.gz",
+            "name": "BDMAP_00004218"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000165_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000165.nii.gz",
+            "name": "BDMAP_00000165"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003006_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003006.nii.gz",
+            "name": "BDMAP_00003006"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003045_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003045.nii.gz",
+            "name": "BDMAP_00003045"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000688_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000688.nii.gz",
+            "name": "BDMAP_00000688"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003716_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003716.nii.gz",
+            "name": "BDMAP_00003716"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001058_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001058.nii.gz",
+            "name": "BDMAP_00001058"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004379_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004379.nii.gz",
+            "name": "BDMAP_00004379"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001303_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001303.nii.gz",
+            "name": "BDMAP_00001303"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002898_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002898.nii.gz",
+            "name": "BDMAP_00002898"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004356_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004356.nii.gz",
+            "name": "BDMAP_00004356"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004713_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004713.nii.gz",
+            "name": "BDMAP_00004713"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003090_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003090.nii.gz",
+            "name": "BDMAP_00003090"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004779_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004779.nii.gz",
+            "name": "BDMAP_00004779"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001144_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001144.nii.gz",
+            "name": "BDMAP_00001144"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002907_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002907.nii.gz",
+            "name": "BDMAP_00002907"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005127_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005127.nii.gz",
+            "name": "BDMAP_00005127"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005176_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005176.nii.gz",
+            "name": "BDMAP_00005176"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001103_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001103.nii.gz",
+            "name": "BDMAP_00001103"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002637_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002637.nii.gz",
+            "name": "BDMAP_00002637"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004124_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004124.nii.gz",
+            "name": "BDMAP_00004124"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000108_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000108.nii.gz",
+            "name": "BDMAP_00000108"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003127_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003127.nii.gz",
+            "name": "BDMAP_00003127"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002245_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002245.nii.gz",
+            "name": "BDMAP_00002245"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004667_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004667.nii.gz",
+            "name": "BDMAP_00004667"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001650_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001650.nii.gz",
+            "name": "BDMAP_00001650"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002825_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002825.nii.gz",
+            "name": "BDMAP_00002825"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004247_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004247.nii.gz",
+            "name": "BDMAP_00004247"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002664_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002664.nii.gz",
+            "name": "BDMAP_00002664"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000021_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000021.nii.gz",
+            "name": "BDMAP_00000021"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002196_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002196.nii.gz",
+            "name": "BDMAP_00002196"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002532_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002532.nii.gz",
+            "name": "BDMAP_00002532"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000819_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000819.nii.gz",
+            "name": "BDMAP_00000819"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004254_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004254.nii.gz",
+            "name": "BDMAP_00004254"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001210_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001210.nii.gz",
+            "name": "BDMAP_00001210"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002338_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002338.nii.gz",
+            "name": "BDMAP_00002338"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001384_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001384.nii.gz",
+            "name": "BDMAP_00001384"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004565_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004565.nii.gz",
+            "name": "BDMAP_00004565"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005115_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005115.nii.gz",
+            "name": "BDMAP_00005115"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001181_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001181.nii.gz",
+            "name": "BDMAP_00001181"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004388_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004388.nii.gz",
+            "name": "BDMAP_00004388"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003217_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003217.nii.gz",
+            "name": "BDMAP_00003217"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001196_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001196.nii.gz",
+            "name": "BDMAP_00001196"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002701_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002701.nii.gz",
+            "name": "BDMAP_00002701"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003845_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003845.nii.gz",
+            "name": "BDMAP_00003845"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001400_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001400.nii.gz",
+            "name": "BDMAP_00001400"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000591_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000591.nii.gz",
+            "name": "BDMAP_00000591"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000050_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000050.nii.gz",
+            "name": "BDMAP_00000050"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003171_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003171.nii.gz",
+            "name": "BDMAP_00003171"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003970_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003970.nii.gz",
+            "name": "BDMAP_00003970"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002134_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002134.nii.gz",
+            "name": "BDMAP_00002134"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004443_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004443.nii.gz",
+            "name": "BDMAP_00004443"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005122_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005122.nii.gz",
+            "name": "BDMAP_00005122"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004786_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004786.nii.gz",
+            "name": "BDMAP_00004786"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001989_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001989.nii.gz",
+            "name": "BDMAP_00001989"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000070_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000070.nii.gz",
+            "name": "BDMAP_00000070"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003371_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003371.nii.gz",
+            "name": "BDMAP_00003371"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001442_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001442.nii.gz",
+            "name": "BDMAP_00001442"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001838_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001838.nii.gz",
+            "name": "BDMAP_00001838"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001472_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001472.nii.gz",
+            "name": "BDMAP_00001472"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001011_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001011.nii.gz",
+            "name": "BDMAP_00001011"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003468_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003468.nii.gz",
+            "name": "BDMAP_00003468"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000995_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000995.nii.gz",
+            "name": "BDMAP_00000995"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003794_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003794.nii.gz",
+            "name": "BDMAP_00003794"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002508_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002508.nii.gz",
+            "name": "BDMAP_00002508"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002633_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002633.nii.gz",
+            "name": "BDMAP_00002633"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002024_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002024.nii.gz",
+            "name": "BDMAP_00002024"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004234_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004234.nii.gz",
+            "name": "BDMAP_00004234"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000395_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000395.nii.gz",
+            "name": "BDMAP_00000395"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003053_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003053.nii.gz",
+            "name": "BDMAP_00003053"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002467_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002467.nii.gz",
+            "name": "BDMAP_00002467"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004674_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004674.nii.gz",
+            "name": "BDMAP_00004674"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000776_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000776.nii.gz",
+            "name": "BDMAP_00000776"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004631_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004631.nii.gz",
+            "name": "BDMAP_00004631"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003899_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003899.nii.gz",
+            "name": "BDMAP_00003899"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004603_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004603.nii.gz",
+            "name": "BDMAP_00004603"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000217_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000217.nii.gz",
+            "name": "BDMAP_00000217"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003565_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003565.nii.gz",
+            "name": "BDMAP_00003565"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000678_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000678.nii.gz",
+            "name": "BDMAP_00000678"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002572_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002572.nii.gz",
+            "name": "BDMAP_00002572"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000384_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000384.nii.gz",
+            "name": "BDMAP_00000384"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000118_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000118.nii.gz",
+            "name": "BDMAP_00000118"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002891_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002891.nii.gz",
+            "name": "BDMAP_00002891"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001546_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001546.nii.gz",
+            "name": "BDMAP_00001546"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003745_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003745.nii.gz",
+            "name": "BDMAP_00003745"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004591_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004591.nii.gz",
+            "name": "BDMAP_00004591"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004553_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004553.nii.gz",
+            "name": "BDMAP_00004553"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003227_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003227.nii.gz",
+            "name": "BDMAP_00003227"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002765_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002765.nii.gz",
+            "name": "BDMAP_00002765"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000602_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000602.nii.gz",
+            "name": "BDMAP_00000602"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003374_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003374.nii.gz",
+            "name": "BDMAP_00003374"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002056_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002056.nii.gz",
+            "name": "BDMAP_00002056"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002668_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002668.nii.gz",
+            "name": "BDMAP_00002668"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002910_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002910.nii.gz",
+            "name": "BDMAP_00002910"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003632_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003632.nii.gz",
+            "name": "BDMAP_00003632"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003066_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003066.nii.gz",
+            "name": "BDMAP_00003066"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004977_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004977.nii.gz",
+            "name": "BDMAP_00004977"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001350_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001350.nii.gz",
+            "name": "BDMAP_00001350"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004691_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004691.nii.gz",
+            "name": "BDMAP_00004691"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000647_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000647.nii.gz",
+            "name": "BDMAP_00000647"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002438_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002438.nii.gz",
+            "name": "BDMAP_00002438"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002148_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002148.nii.gz",
+            "name": "BDMAP_00002148"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001306_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001306.nii.gz",
+            "name": "BDMAP_00001306"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000530_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000530.nii.gz",
+            "name": "BDMAP_00000530"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000796_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000796.nii.gz",
+            "name": "BDMAP_00000796"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004471_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004471.nii.gz",
+            "name": "BDMAP_00004471"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001284_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001284.nii.gz",
+            "name": "BDMAP_00001284"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000901_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000901.nii.gz",
+            "name": "BDMAP_00000901"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001418_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001418.nii.gz",
+            "name": "BDMAP_00001418"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003929_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003929.nii.gz",
+            "name": "BDMAP_00003929"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003710_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003710.nii.gz",
+            "name": "BDMAP_00003710"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004774_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004774.nii.gz",
+            "name": "BDMAP_00004774"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000684_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000684.nii.gz",
+            "name": "BDMAP_00000684"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001189_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001189.nii.gz",
+            "name": "BDMAP_00001189"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000969_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000969.nii.gz",
+            "name": "BDMAP_00000969"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001330_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001330.nii.gz",
+            "name": "BDMAP_00001330"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001723_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001723.nii.gz",
+            "name": "BDMAP_00001723"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004227_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004227.nii.gz",
+            "name": "BDMAP_00004227"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004619_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004619.nii.gz",
+            "name": "BDMAP_00004619"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004906_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004906.nii.gz",
+            "name": "BDMAP_00004906"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003262_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003262.nii.gz",
+            "name": "BDMAP_00003262"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002366_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002366.nii.gz",
+            "name": "BDMAP_00002366"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000150_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000150.nii.gz",
+            "name": "BDMAP_00000150"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000726_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000726.nii.gz",
+            "name": "BDMAP_00000726"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005173_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005173.nii.gz",
+            "name": "BDMAP_00005173"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004967_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004967.nii.gz",
+            "name": "BDMAP_00004967"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000609_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000609.nii.gz",
+            "name": "BDMAP_00000609"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000426_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000426.nii.gz",
+            "name": "BDMAP_00000426"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00005062_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00005062.nii.gz",
+            "name": "BDMAP_00005062"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001588_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001588.nii.gz",
+            "name": "BDMAP_00001588"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000531_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000531.nii.gz",
+            "name": "BDMAP_00000531"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003862_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003862.nii.gz",
+            "name": "BDMAP_00003862"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004640_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004640.nii.gz",
+            "name": "BDMAP_00004640"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00003161_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00003161.nii.gz",
+            "name": "BDMAP_00003161"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004213_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004213.nii.gz",
+            "name": "BDMAP_00004213"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004692_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004692.nii.gz",
+            "name": "BDMAP_00004692"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002794_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002794.nii.gz",
+            "name": "BDMAP_00002794"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004912_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004912.nii.gz",
+            "name": "BDMAP_00004912"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002559_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002559.nii.gz",
+            "name": "BDMAP_00002559"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00002564_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00002564.nii.gz",
+            "name": "BDMAP_00002564"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000151_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000151.nii.gz",
+            "name": "BDMAP_00000151"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00000199_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00000199.nii.gz",
+            "name": "BDMAP_00000199"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004323_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004323.nii.gz",
+            "name": "BDMAP_00004323"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004545_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004545.nii.gz",
+            "name": "BDMAP_00004545"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00004707_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00004707.nii.gz",
+            "name": "BDMAP_00004707"
+        },
+        {
+            "image": "./healthy_atlas/BDMAP_00001435_0000.nii.gz",
+            "label": "./healthy_atlas_masks/BDMAP_00001435.nii.gz",
+            "name": "BDMAP_00001435"
+        }
+    ]
+}

@@ -63,11 +63,11 @@ We thank Prof. [Jun Ma](https://scholar.google.com/citations?user=bW1UV4IAAAAJ&h
 If you find this repo useful for your research, please consider citing the paper as follows:
 
 ```bibtex
-@article{wu2025unibiomed,
-  title={UniBiomed: A Universal Foundation Model for Grounded Biomedical Image Interpretation},
-  author={Wu, Linshan and Nie, Yuxiang and He, Sunan and Zhuang, Jiaxin and Luo, Luyang and Mahboobani, Neeraj and Vardhanabhuti, Varut and Chan, Ronald Cheong Kin and Peng, Yifan and Rajpurkar, Pranav and others},
-  journal={arXiv preprint arXiv:2504.21336},
-  year={2025}
+@inproceedings{GF-Screen,
+  title={Glance and Focus Reinforcement for Pan-cancer Screening},
+  author={Wu, Linshan and Zhuang, Jiaxin and Chen, Hao},
+  booktitle={ICLR},
+  year={2026},
 }
 @article{ma2024flare,
   title={Unleashing the strengths of unlabelled data in deep learning-assisted pan-cancer abdominal organ quantification: the FLARE22 challenge},

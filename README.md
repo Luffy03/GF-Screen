@@ -1,11 +1,11 @@
 <div align="center">
 <h1>[ICLR 2026] Glance and Focus Reinforcement for Pan-cancer Screening</h1>
 
-<a href="https://github.com/Luffy03/GF-Screen"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
+<a href="http://arxiv.org/abs/2601.19103"><img src='https://img.shields.io/badge/arXiv-Preprint-red' alt='Paper PDF'></a>
 <a href='https://huggingface.co/datasets/linshangmail/Pancancer'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green' alt='Dataset'></a>
 </div>
 
-Linshan Wu, Jiaxin Zhuang, [Hao Chen](https://scholar.google.com/citations?user=Z_t5DjwAAAAJ&hl=en). **Glance and Focus Reinforcement for Pan-cancer Screening**. ICLR 2026
+Linshan Wu, Jiaxin Zhuang, [Hao Chen](https://scholar.google.com/citations?user=Z_t5DjwAAAAJ&hl=en). [**Glance and Focus Reinforcement for Pan-cancer Screening**](http://arxiv.org/abs/2601.19103). ICLR 2026
 
 ### Introduction
 Pan-cancer screening in large-scale CT scans remains challenging for existing AI methods, primarily due to the difficulty of localizing diverse types of tiny lesions in large CT volumes. The extreme foreground-background imbalance significantly hinders models from focusing on diseased regions, while redundant focus on healthy regions not only decreases the efficiency but also increases false positives. Inspired by radiologists' glance and focus diagnostic strategy, we introduce **GF-Screen**, a Glance and Focus reinforcement learning framework for pan-cancer screening. GF-Screen employs a Glance model to localize the diseased regions and a Focus model to precisely segment the lesions, where segmentation results of the Focus model are leveraged to reward the Glance model via Reinforcement Learning (RL). Specifically, the Glance model crops a group of sub-volumes from the entire CT volume and learns to select the sub-volumes with lesions for the Focus model to segment. Given that the selecting operation is non-differentiable for segmentation training, we propose to employ the segmentation results to reward the Glance model. To optimize the Glance model, we introduce a novel group relative learning paradigm, which employs group relative comparison to prioritize high-advantage predictions and discard low-advantage predictions within sub-volume groups, not only improving efficiency but also reducing false positives. In this way, for the first time, we effectively extend cutting-edge RL techniques to tackle the specific challenges in pan-cancer screening.
